@@ -47,13 +47,5 @@ h2{
 }
 .download {
   margin: 20px;
-}
-
-
-@media screen and (max-width: 375px) and (orientation: portrait) {
-  .container{
-    display: block;
-    margin-top: 0;
-    margin-left: 0;
-  }
+  padding: 10px;
 }
