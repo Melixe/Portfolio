@@ -66,11 +66,9 @@ h2, h4.projet{
 .loisir{
   float: right;
 }
-
-@media screen and (max-width: 375px) and (orientation: portrait) {
-  .container{
-    display: block;
-    margin-top: 0;
-    margin-left: 0;
-  }
+h3.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
