@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: lato;
   margin: 0;
@@ -36,6 +39,12 @@ h2, h4.projet{
   display: flex;
   flex-direction: column;
   width: 70%;
+}
+#tile, #tile2 {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 375px;
+  margin: auto;
 }
 .description {
   widows: 630px;
